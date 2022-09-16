@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* command style**************** */
+.pad{
+    padding: 2rem;
+}
+/* command style end **************** */
+
+.daily{
+    margin-bottom: 6px;
+}
+.Please{
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+/* from start********* */
+.contain{
+    background: hsl(0,0%,98%);
+    font-size: 18px;
+}
+.project{
+    margin-top: 48px;
+}
+.pro{
+    margin-bottom: 5px;
+}
+.text{
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid rgb(199,185,185);
+}
+.data{
+    margin-top: 48px;
+}
+
+.description{
+    margin: 12px 0 16px 0;
+    font-size: 15px;
+}
+.texts{
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid rgb(199,185,185);
+}
+.texts input{
+    border: none;
+    width: 48%;
+}
+
+.textss{
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid rgb(199,185,185);
+}
+
+.textss input{
+    width: 100%;
+    border: none;
+    padding: 16px 16px 32px;
+}
+.file input{
+    background-color: lightgray;
+    width: 69%;
+    border: none;
+
+}
+.arrow{
+    margin: 20px 0 ;
+    display: flex;
+    font-size: 68%;
+    color: #8a8888;
+    
+}
+.did{
+    margin-top: 50px;
+}
+.check{
+    margin-top: 10px;
+}
+
+.my{
+    padding: 1rem 1.5rem;
+    background: blue;
+    color: white;
+    border-radius: 6px;
+    margin-top: 50px;
+    border-style: hidden;
+
+}
+.small{
+    font-size: 11px;
+    color: #8a8888;
+    margin: 20px 0  ;
+}
+
+/* media*********** */
+@media  (min-width:768px) {
+    
+    .head{
+        margin: 0 96px;
+    }
+    .main{
+        margin: 0 96px;
+    }
+}
+
+@media  (min-width:1024px) {
+    
+    .head{
+        margin: 0 250px;
+    }
+    .main{
+        margin: 0 250px;
+    }
+}
+@media  (min-width:1440px) {
+    
+    .head{
+        margin: 0 450px;
+    }
+    .main{
+        margin: 0 450px;
+    }
+}
